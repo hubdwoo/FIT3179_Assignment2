@@ -5,16 +5,37 @@
     "title": "COVID-19 in America by State",
     "data":
     {
-        "url": "https://raw.githubusercontent.com/hubdwoo/FIT3179_Week9/main/js/US.topojson",
+        "url": "https://raw.githubusercontent.com/hubdwoo/FIT3179_Week9/main/js/states-albers-10m.topojson",
         "format":
         {
             "type": "topojson",
-            "feature": "US"
+            "feature": "states-albers-10m"
         }
     },
     "transform": [
         {
-            
+            "lookup": "properties.name",
+            "from": {
+                "data": {
+                    "url": "https://raw.githubusercontent.com/hubdwoo/FIT3179_Week9/main/Datasets/states_positive.csv"
+                },
+                "key": "City",
+                "fields": ["positive"]
+            }
+        },
+        {
+            "calculate": "datum.positive + 0.1", "as": "Active Cases"
         }
-    ]
+    ],
+    "mark": {"type": "geoshape"},
+    "encoding": {
+        "color": {
+            "field": "positive",
+            "type": "quantitative"
+        },
+        "tooltip": [
+            {"field": "properties.name", "type": "nominal", "title": "States"},
+            {"field": "positive", "type": "quantitative"}
+        ]
+    }
 }

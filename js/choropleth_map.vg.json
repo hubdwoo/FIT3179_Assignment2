@@ -3,13 +3,14 @@
     "width": 800,
     "height": 500,
     "title": "COVID-19 in America by State",
+    "projection": {"type": "albersUsa"},
     "data":
     {
-        "url": "https://raw.githubusercontent.com/hubdwoo/FIT3179_Week9/main/js/states-albers-10m.topojson",
+        "url": "https://raw.githubusercontent.com/hubdwoo/FIT3179_Week9/main/js/states-10m.topojson",
         "format":
         {
             "type": "topojson",
-            "feature": "states-albers-10m"
+            "feature": "states"
         }
     },
     "transform": [
@@ -22,20 +23,18 @@
                 "key": "City",
                 "fields": ["positive"]
             }
-        },
-        {
-            "calculate": "datum.positive + 0.1", "as": "Active Cases"
         }
     ],
     "mark": {"type": "geoshape"},
     "encoding": {
         "color": {
             "field": "positive",
-            "type": "quantitative"
+            "type": "quantitative",
+            "scale": {"scheme": "reds"}
         },
         "tooltip": [
             {"field": "properties.name", "type": "nominal", "title": "States"},
-            {"field": "positive", "type": "quantitative"}
+            {"field": "positive", "type": "quantitative", "format": ","}
         ]
     }
 }

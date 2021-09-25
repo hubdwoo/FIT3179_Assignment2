@@ -9,4 +9,4 @@
 
 # json file
 /js/*
-!/js/NorthAmericaTopo.geo.json
+!/js/NorthAmericaTopo.topojson

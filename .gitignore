@@ -1,0 +1,12 @@
+# Ignoring python notebook
+*.ipynb
+
+# geogenerated
+*geogenerated.html
+
+# .idea
+*.idea
+
+# json file
+/js/*
+!/js/NorthAmericaTopo.geo.json

@@ -10,3 +10,4 @@
 # json file
 /js/*
 !/js/*.topojson
+!/js/*.vg.json

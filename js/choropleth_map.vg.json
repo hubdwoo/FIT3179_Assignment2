@@ -1,0 +1,20 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 800,
+    "height": 500,
+    "title": "COVID-19 in America by State",
+    "data":
+    {
+        "url": "https://raw.githubusercontent.com/hubdwoo/FIT3179_Week9/main/js/US.topojson",
+        "format":
+        {
+            "type": "topojson",
+            "feature": "US"
+        }
+    },
+    "transform": [
+        {
+            
+        }
+    ]
+}

@@ -1,0 +1,87 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "COVID-19 Positive tests in USA by State",
+    "width": "container",
+    "height": 500,
+    "projection": 
+    {
+        "type": "albersUsa"
+    },
+    "params": 
+    [{
+        "name": "month_selection",
+        "value": "March",
+        "bind": 
+        {
+            "input": "select",
+            "options": 
+            [
+                "January",
+                "February",
+                "March",
+                "April",
+                "May",
+                "June",
+                "July",
+                "August",
+                "September",
+                "October",
+                "November",
+                "December"
+            ],
+            "labels": 
+            [
+                "January",
+                "February",
+                "March",
+                "April",
+                "May",
+                "June",
+                "July",
+                "August",
+                "September",
+                "October",
+                "November",
+                "December"
+            ],
+            "name": "Month"
+        }
+    }],
+    "layer": 
+    [{
+        "data": 
+        {
+            "url": "https://raw.githubusercontent.com/hubdwoo/FIT3179_Week9/main/js/states-10m.topojson",
+            "format":
+            {
+                "type": "topojson",
+                "feature": "states"
+            }
+        },
+        "transform": 
+        [{
+            "calculate": "'Data is not available in ' + datum.properties.name",
+            "as": "Note"
+        }],
+        "mark":
+        {
+            "type": "geoshape",
+            "fill": "ghostwhite",
+            "stroke": "white",
+            "strokeWidth": 1
+        },
+        "encoding": 
+        {
+            "tooltip":
+            {
+                "field": "Note"
+            }
+        }
+    },
+    {
+        "data":
+        {
+            "url": ""
+        }
+    }]
+}

@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": "COVID-19 Positive tests in USA by State",
-    "width": "container",
+    "width": 1000,
     "height": 500,
     "projection": 
     {

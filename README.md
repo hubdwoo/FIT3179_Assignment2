@@ -7,3 +7,4 @@
 * https://mapshaper.org/
 * https://www.kaggle.com/sudalairajkumar/covid19-in-usa
 * https://www.kaggle.com/washimahmed/usa-latlong-for-state-abbreviations
+* https://worldpopulationreview.com/states

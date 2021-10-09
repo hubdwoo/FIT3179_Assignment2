@@ -11,10 +11,17 @@
         
     </head>
     <body>
-        <div id = "symbol_map"></div>
+        <div id = "choroplethmap"></div>
         <script type = "text/javascript">
             var map = "https://raw.githubusercontent.com/hubdwoo/FIT3179_Week9/main/js/choropleth_map.vg.json";
-            vegaEmbed('#symbol_map', map).then(function(result){
+            vegaEmbed('#choroplethmap', map).then(function(result){
+            }).catch(console.error);
+        </script>
+        <br>
+        <div id = "choroplethmap"></div>
+        <script type = "text/javascript">
+            var map = "https://raw.githubusercontent.com/hubdwoo/FIT3179_Week9/main/js/chropleth_map_interactive.vg.json";
+            vegaEmbed('#choroplethmap', map).then(function(result){
             }).catch(console.error);
         </script>
     </body>

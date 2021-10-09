@@ -81,7 +81,63 @@
     {
         "data":
         {
-            "url": ""
+            "url": "https://raw.githubusercontent.com/hubdwoo/FIT3179_Week9/main/Datasets/state_positive_month.csv"
+        },
+        "transform": 
+        [{
+            "lookup": "City",
+            "from":
+            {
+                "data":
+                {
+                    "url": "https://raw.githubusercontent.com/hubdwoo/FIT3179_Week9/main/js/states-10m.topojson",
+                    "format":
+                    {
+                        "type": "topojson",
+                        "feature": "states"
+                    }
+                },
+                "key": "properties.name"
+            },
+            "as": "geo"
+        },
+        {
+            "filter": "datum.month == month_selection"
+        }],
+        "mark": 
+        {
+            "type": "geoshape",
+            "stroke": "white",
+            "strokeWidth": 1
+        },
+        "encoding": 
+        {
+            "shape":
+            {
+                "field": "geo",
+                "type": "geojson"
+            },
+            "color":
+            {
+                "field": "positive",
+                "type": "quantitative",
+                "scale":
+                {
+                    "scheme": "reds"
+                }
+            },
+            "tooltip":
+            [{
+                "field": "City",
+                "type": "nominal",
+                "title": "State"
+            },
+            {
+                "field": "positive",
+                "type": "quantitative",
+                "title": "Positive tests",
+                "format": ","
+            }]
         }
     }]
 }

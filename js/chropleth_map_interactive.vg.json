@@ -1,8 +1,8 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "COVID-19 Positive tests in USA by State",
     "width": "container",
     "height": "container",
+    "background": "darkgray",
     "projection": 
     {
         "type": "albersUsa"
@@ -44,7 +44,7 @@
                 "November",
                 "December"
             ],
-            "name": "Month"
+            "name": "Month: "
         }
     }],
     "layer": 
@@ -107,7 +107,7 @@
         "mark": 
         {
             "type": "geoshape",
-            "stroke": "white",
+            "stroke": "gray",
             "strokeWidth": 1
         },
         "encoding": 

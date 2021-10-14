@@ -1,8 +1,12 @@
 .vis-container{
-    width: 100%;
+    width: 50vw;
     height: 500px;
 }
 
 .page{
     width: 1024px;
+}
+
+body {
+    background-color:darkgrey;
 }

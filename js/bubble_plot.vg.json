@@ -1,0 +1,29 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": "container",
+    "height": "container",
+    "background": "darkgray",
+    "data": 
+    {
+        "url": "https://raw.githubusercontent.com/hubdwoo/FIT3179_Week9/main/Datasets/states_data.csv"
+    },
+    "mark": "point",
+    "encoding": 
+    {
+        "x":
+        {
+            "field": "positive",
+            "type": "quantitative"
+        },
+        "y":
+        {
+            "field": "negative",
+            "type": "quantitative"
+        },
+        "size":
+        {
+            "field": "POPESTIMATE2020",
+            "type": "quantitative"
+        }
+    }
+}

@@ -2,7 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": "container",
     "height": "container",
-    "background": "darkgray",
+    "background": "white",
     "data": 
     {
         "url": "https://raw.githubusercontent.com/hubdwoo/FIT3179_Week9/main/Datasets/state_without_date.csv"
@@ -71,6 +71,9 @@
     "config": {
         "legend": {
             "disable": true
+        },
+        "view": {
+            "stroke": "transparent"
         }
     }
 }

@@ -5,7 +5,7 @@
     "background": "white",
     "data": 
     {
-        "url": "https://raw.githubusercontent.com/hubdwoo/FIT3179_Week9/main/Datasets/state_without_date.csv"
+        "url": "https://github.com/hubdwoo/FIT3179_Week9/blob/main/Datasets/states_data.csv"
     },
     "mark":{
         "type": "point",
@@ -24,28 +24,22 @@
         },
         "y":
         {
-            "field": "negative",
+            "field": "POPESTIMATE2020",
             "type": "quantitative",
             "axis": 
             {
                 "grid": false
             }
         },
-        "size":
-        {
-            "field": "POPESTIMATE2020",
-            "type": "quantitative",
-            "scale": {
-                "range": [10, 2000]
-            }
-        },
-        "color":
+        "shape":
         {
             "field": "City",
-            "type": "nominal",
-            "scale": {
-                "scheme": "set1"
-            }
+            "type": "nominal"
+        },
+        "color": 
+        {
+            "field": "City",
+            "type": "nominal"
         },
         "tooltip": [{
             "field": "City",
@@ -55,16 +49,6 @@
             "field": "positive",
             "type": "quantitative",
             "title": "Positive tests",
-            "format": ","
-        },{
-            "field": "negative",
-            "type": "quantitative",
-            "title": "Negative tests",
-            "format": ","
-        },{
-            "field": "POPESTIMATE2020",
-            "type": "quantitative",
-            "title": "Population",
             "format": ","
         }]
     },

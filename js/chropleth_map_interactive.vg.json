@@ -13,37 +13,9 @@
         "value": "March",
         "bind": 
         {
-            "input": "select",
-            "options": 
-            [
-                "January",
-                "February",
-                "March",
-                "April",
-                "May",
-                "June",
-                "July",
-                "August",
-                "September",
-                "October",
-                "November",
-                "December"
-            ],
-            "labels": 
-            [
-                "January",
-                "February",
-                "March",
-                "April",
-                "May",
-                "June",
-                "July",
-                "August",
-                "September",
-                "October",
-                "November",
-                "December"
-            ],
+            "input": "range",
+            "min": 3,
+            "max": 12,
             "name": "Month: "
         }
     }],
@@ -81,7 +53,7 @@
     {
         "data":
         {
-            "url": "https://raw.githubusercontent.com/hubdwoo/FIT3179_Week9/main/Datasets/state_positive_month.csv"
+            "url": "https://github.com/hubdwoo/FIT3179_Week9/blob/main/Datasets/states_data.csv"
         },
         "transform": 
         [{

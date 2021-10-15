@@ -5,7 +5,7 @@
     "background": "white",
     "data": 
     {
-        "url": "https://github.com/hubdwoo/FIT3179_Week9/blob/main/Datasets/states_data.csv"
+        "url": "https://raw.githubusercontent.com/hubdwoo/FIT3179_Week9/main/Datasets/state_without_date.csv"
     },
     "mark":{
         "type": "point",

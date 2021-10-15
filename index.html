@@ -24,7 +24,10 @@
                 </div>
             </div>
             <br>
-            <h2> Choropleth map for each month </h2>
+            <h2> COVID-19 positive tests over months </h2>
+            <p> From the visualisation below, we can see how COVID-19 has spread accross US according to positive tests that are conducted.
+                We can see that the worst spread happens in November, and we can also see that the most populus city has the most positive tests. 
+            </p>
             <div class = "secondchoro">
                 <div class = "first">
                     <div id = "vis_2", class = "vis-container"></div>
@@ -32,11 +35,11 @@
             </div>
         </div>
         <script type = "text/javascript">
-            var map = "js/bubble_plot.vg.json";
+            var map = "js/bar_plot_population.vg.json";
             vegaEmbed('#vis_1', map).then(function(result){
             }).catch(console.error);
 
-            var map2 = "js/chropleth_map_interactive.vg.json";
+            var map2 = "js/choropleth_map_interactive.vg.json";
             vegaEmbed('#vis_2', map2).then(function(result){
             }).catch(console.error);
         </script>

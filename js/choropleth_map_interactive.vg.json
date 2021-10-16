@@ -10,7 +10,7 @@
     "params": 
     [{
         "name": "month_selection",
-        "value": 3,
+        "value": 11,
         "bind": 
         {
             "input": "range",
@@ -75,13 +75,13 @@
             "as": "geo"
         },
         {
-            "filter": "datum.month == month_selection"
+            "filter":  "datum.month == month_selection"
         }],
         "mark": 
         {
             "type": "geoshape",
-            "stroke": "gray",
-            "strokeWidth": 1
+            "stroke": "whitesmoke",
+            "strokeWidth": 0.5
         },
         "encoding": 
         {

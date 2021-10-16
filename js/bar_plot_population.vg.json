@@ -1,26 +1,53 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "mark": "bar",
+    "mark": {
+        "type": "bar",
+        "stroke": "transparent",
+        "line": false,
+        "cornerRadius": 2
+    },
     "width": "container",
     "height": "container",
     "data": 
     {
-        "url": "https://raw.githubusercontent.com/hubdwoo/FIT3179_Week9/main/Datasets/states_data.csv"
+        "url": "https://raw.githubusercontent.com/hubdwoo/FIT3179_Week9/main/Datasets/states_positive.csv"
     },
     "encoding": {
         "x": {
             "field": "City",
             "type": "nominal",
             "axis": {
-                "grid": false
-            }
+                "grid": false,
+                "ticks": true
+            },
+            "title": "State"
         },
         "y": {
             "field": "POPESTIMATE2020",
             "type": "quantitative",
             "axis": {
-                "grid": false
-            }
+                "grid": false,
+                "ticks": true
+            },
+            "title": "Population"
+        },
+        "tooltip": [{
+            "field": "City",
+            "type": "nominal",
+            "title": "State"
+        }, {
+            "field": "POPESTIMATE2020",
+            "type": "quantitative",
+            "title": "Population",
+            "format": ","
+        }],
+        "color": {
+            "value": "#fc9272"
+        }
+    },
+    "config": {
+        "view": {
+            "stroke": "transparent"
         }
     }
 }

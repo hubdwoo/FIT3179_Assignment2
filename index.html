@@ -12,36 +12,63 @@
     </head>
     <body>
         <div class = "page">
-            <h1>COVID-19 Positive tests</h1>
+            <h1 class = "title_main">
+                <i>
+                USA COVID-19 MOVEMENT AND RELATIONSHIP BETWEEN POPULATION
+                </i>
+            </h1>
+            <hr>
+            <br>
             <div class = "introduction">
                 <div class = "introduction_desc">
                 </div>
             </div>
-            <h2> Bubble Plot </h2>
-            <div class = "firstchoro">
+            <h3> USA population by State 2020 </h3>
+            <hr>
+            <p>The visualisation below the population by each state in 2020. We can see that California is the most populus state in USA.
+                Where texas is coming in second, Florida in the third. By pure glimpse observation, without looking at the positive tests data
+                we can already see that these 3 states will be heavily raided by COVID-19.
+            </p>
+            <div class = "barplot">
                 <div class = "first">
                     <div id = "vis_1", class = "vis-container"></div>
                 </div>
             </div>
             <br>
-            <h2> COVID-19 positive tests over months </h2>
+            <h3> COVID-19 Positive tests for each months </h3>
+            <hr>
             <p> From the visualisation below, we can see how COVID-19 has spread accross US according to positive tests that are conducted.
-                We can see that the worst spread happens in November, and we can also see that the most populus city has the most positive tests. 
-            </p>
-            <div class = "secondchoro">
-                <div class = "first">
+                We can see that the worst spread happens in November, and we can also see that the most populus city has the most positive tests.
+                It is safe to assume that California, Texas, and Florida will have the most positive tests given their population count.
+                And indeed this assumption is true. If we go to November which is the eleventh month in the Gregorian Calendar, we can see that
+                the most darker reds reside in california, Texas, and Florida.
+            <div class = "choromap">
+                <div class = "second">
                     <div id = "vis_2", class = "vis-container"></div>
+                </div>
+            </div>
+            <br>
+            <h3>
+                Population and Positive tests by State
+            </h3>
+            <div class = "scatterplot">
+                <div class = "third">
+                    <div id = "vis_3", class = "vis-container"></div>
                 </div>
             </div>
         </div>
         <script type = "text/javascript">
-            var map = "js/bar_plot_population.vg.json";
-            vegaEmbed('#vis_1', map).then(function(result){
+            var bar = "js/bar_plot_population.vg.json";
+            vegaEmbed('#vis_1', bar).then(function(result){
             }).catch(console.error);
 
-            var map2 = "js/choropleth_map_interactive.vg.json";
-            vegaEmbed('#vis_2', map2).then(function(result){
+            var map = "js/choropleth_map_interactive.vg.json";
+            vegaEmbed('#vis_2', map).then(function(result){
             }).catch(console.error);
+
+            var scatter = "js/bubble_plot.vg.json";
+            vegaEmbed("#vis_3", scatter).then(function(result){
+            }).catch(console.error)
         </script>
     </body>
 </html>

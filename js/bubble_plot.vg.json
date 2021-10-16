@@ -5,12 +5,75 @@
     "background": "white",
     "data": 
     {
-        "url": "https://raw.githubusercontent.com/hubdwoo/FIT3179_Week9/main/Datasets/state_without_date.csv"
+        "url": "https://raw.githubusercontent.com/hubdwoo/FIT3179_Week9/main/Datasets/states_data.csv"
     },
     "mark":{
         "type": "point",
         "filled": true
     },
+    "params": [{
+        "name": "state_selection",
+        "value": "California",
+        "bind": {
+            "input": "select",
+            "options": [
+                "Alaska",
+                "Alabama",
+                "Arkansas",
+                "Arizona",
+                "California",
+                "Colorado",
+                "Connecticut",
+                "District of Columbia",
+                "Delaware",
+                "Florida",
+                "Georgia",
+                "Hawaii",
+                "Iowa",
+                "Idaho",
+                "Illinois",
+                "Indiana",
+                "Kansas",
+                "Kentucky",
+                "Louisiana",
+                "Massachusetts",
+                "Maryland",
+                "Maine",
+                "Michigan",
+                "Minnesota",
+                "Missouri",
+                "Mississippi",
+                "Montana",
+                "North Carolina",
+                "North Dakota",
+                "Nabraska",
+                "New Hampshire",
+                "New Jersey",
+                "New Mexico",
+                "Nevada",
+                "New York",
+                "Ohio",
+                "Oklahoma",
+                "Oregon",
+                "Pennsylvania",
+                "Rhode Island",
+                "South Carolina",
+                "South Dakota",
+                "Tennessee",
+                "Texas",
+                "Utah",
+                "Virginia",
+                "Vermont",
+                "Washington",
+                "Wisconsin",
+                "West Virginia",
+                "Wyoming"
+            ]
+        }
+    }],
+    "transform": [{
+        "filter": "datum.City == state_selection"
+    }],
     "encoding": 
     {
         "x":
@@ -30,16 +93,6 @@
             {
                 "grid": false
             }
-        },
-        "shape":
-        {
-            "field": "City",
-            "type": "nominal"
-        },
-        "color": 
-        {
-            "field": "City",
-            "type": "nominal"
         },
         "tooltip": [{
             "field": "City",

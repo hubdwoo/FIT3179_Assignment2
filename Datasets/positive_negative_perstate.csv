@@ -1,52 +1,103 @@
-,City,state,positive,negative
-0,Alabama,AL,24228288.0,159567202.0
-1,Alaska,AK,1621040.0,77033703.0
-2,Arizona,AZ,35762140.0,201917924.0
-3,Arkansas,AR,13671266.0,147104865.0
-4,California,CA,125742663.0,2183819832.0
-5,Colorado,CO,16817857.0,142930238.0
-6,Connecticut,CT,13306886.0,259613004.0
-7,Delaware,DE,4042598.0,43323206.0
-8,District of Columbia,DC,3366043.0,58917999.0
-9,Florida,FL,106045873.0,751142471.0
-10,Georgia,GA,48130906.0,406954073.0
-11,Hawaii,HI,1603917.0,38771843.0
-12,Idaho,ID,7258855.0,43031096.0
-13,Illinois,IL,59325694.0,862140450.0
-14,Indiana,IN,23750124.0,197985426.0
-15,Iowa,IA,15415225.0,107053275.0
-16,Kansas,KS,10872354.0,73094086.0
-17,Kentucky,KY,12363073.0,204719106.0
-18,Louisiana,LA,27872485.0,338397057.0
-19,Maine,ME,1236126.0,67859719.0
-20,Maryland,MD,22732166.0,233073975.0
-21,Massachusetts,MA,29239618.0,336811777.0
-22,Michigan,MI,30090594.0,569291217.0
-23,Minnesota,MN,20037079.0,225225064.0
-24,Mississippi,MS,15869624.0,106130305.0
-25,Missouri,MO,20893534.0,175184257.0
-26,Montana,MT,3045523.0,53569922.0
-27,Nebraska,NE,8978990.0,67315095.0
-28,Nevada,NV,13292261.0,100621631.0
-29,New Hampshire,NH,2599038.0,43686055.0
-30,New Jersey,NJ,46021578.0,559074051.0
-31,New Mexico,NM,6763714.0,149940762.0
-32,New York,NY,103777740.0,1725435452.0
-33,North Carolina,NC,34424996.0,461090490.0
-34,North Dakota,ND,4364140.0,36647384.0
-35,Ohio,OH,29252115.0,484990822.0
-36,Oklahoma,OK,13983896.0,179297720.0
-37,Oregon,OR,6182368.0,112262019.0
-38,Pennsylvania,PA,32390495.0,307108742.0
-39,Rhode Island,RI,5656958.0,54330594.0
-40,South Carolina,SC,23589303.0,192892602.0
-41,South Dakota,SD,4847915.0,28210252.0
-42,Tennessee,TN,31812873.0,421487097.0
-43,Texas,TX,113497755.0,910191843.0
-44,Utah,UT,13803992.0,129216420.0
-45,Vermont,VT,401623.0,25346392.0
-46,Virginia,VA,24998458.0,302996183.0
-47,Washington,WA,15680936.0,299026434.0
-48,West Virginia,WV,3054347.0,93067175.0
-49,Wisconsin,WI,25479912.0,234804376.0
-50,Wyoming,WY,1527360.0,15234707.0
+,City,test_type,count
+0,Alabama,positive,24228288.0
+1,Alaska,positive,1621040.0
+2,Arizona,positive,35762140.0
+3,Arkansas,positive,13671266.0
+4,California,positive,125742663.0
+5,Colorado,positive,16817857.0
+6,Connecticut,positive,13306886.0
+7,Delaware,positive,4042598.0
+8,District of Columbia,positive,3366043.0
+9,Florida,positive,106045873.0
+10,Georgia,positive,48130906.0
+11,Hawaii,positive,1603917.0
+12,Idaho,positive,7258855.0
+13,Illinois,positive,59325694.0
+14,Indiana,positive,23750124.0
+15,Iowa,positive,15415225.0
+16,Kansas,positive,10872354.0
+17,Kentucky,positive,12363073.0
+18,Louisiana,positive,27872485.0
+19,Maine,positive,1236126.0
+20,Maryland,positive,22732166.0
+21,Massachusetts,positive,29239618.0
+22,Michigan,positive,30090594.0
+23,Minnesota,positive,20037079.0
+24,Mississippi,positive,15869624.0
+25,Missouri,positive,20893534.0
+26,Montana,positive,3045523.0
+27,Nebraska,positive,8978990.0
+28,Nevada,positive,13292261.0
+29,New Hampshire,positive,2599038.0
+30,New Jersey,positive,46021578.0
+31,New Mexico,positive,6763714.0
+32,New York,positive,103777740.0
+33,North Carolina,positive,34424996.0
+34,North Dakota,positive,4364140.0
+35,Ohio,positive,29252115.0
+36,Oklahoma,positive,13983896.0
+37,Oregon,positive,6182368.0
+38,Pennsylvania,positive,32390495.0
+39,Rhode Island,positive,5656958.0
+40,South Carolina,positive,23589303.0
+41,South Dakota,positive,4847915.0
+42,Tennessee,positive,31812873.0
+43,Texas,positive,113497755.0
+44,Utah,positive,13803992.0
+45,Vermont,positive,401623.0
+46,Virginia,positive,24998458.0
+47,Washington,positive,15680936.0
+48,West Virginia,positive,3054347.0
+49,Wisconsin,positive,25479912.0
+50,Wyoming,positive,1527360.0
+51,Alabama,negative,159567202.0
+52,Alaska,negative,77033703.0
+53,Arizona,negative,201917924.0
+54,Arkansas,negative,147104865.0
+55,California,negative,2183819832.0
+56,Colorado,negative,142930238.0
+57,Connecticut,negative,259613004.0
+58,Delaware,negative,43323206.0
+59,District of Columbia,negative,58917999.0
+60,Florida,negative,751142471.0
+61,Georgia,negative,406954073.0
+62,Hawaii,negative,38771843.0
+63,Idaho,negative,43031096.0
+64,Illinois,negative,862140450.0
+65,Indiana,negative,197985426.0
+66,Iowa,negative,107053275.0
+67,Kansas,negative,73094086.0
+68,Kentucky,negative,204719106.0
+69,Louisiana,negative,338397057.0
+70,Maine,negative,67859719.0
+71,Maryland,negative,233073975.0
+72,Massachusetts,negative,336811777.0
+73,Michigan,negative,569291217.0
+74,Minnesota,negative,225225064.0
+75,Mississippi,negative,106130305.0
+76,Missouri,negative,175184257.0
+77,Montana,negative,53569922.0
+78,Nebraska,negative,67315095.0
+79,Nevada,negative,100621631.0
+80,New Hampshire,negative,43686055.0
+81,New Jersey,negative,559074051.0
+82,New Mexico,negative,149940762.0
+83,New York,negative,1725435452.0
+84,North Carolina,negative,461090490.0
+85,North Dakota,negative,36647384.0
+86,Ohio,negative,484990822.0
+87,Oklahoma,negative,179297720.0
+88,Oregon,negative,112262019.0
+89,Pennsylvania,negative,307108742.0
+90,Rhode Island,negative,54330594.0
+91,South Carolina,negative,192892602.0
+92,South Dakota,negative,28210252.0
+93,Tennessee,negative,421487097.0
+94,Texas,negative,910191843.0
+95,Utah,negative,129216420.0
+96,Vermont,negative,25346392.0
+97,Virginia,negative,302996183.0
+98,Washington,negative,299026434.0
+99,West Virginia,negative,93067175.0
+100,Wisconsin,negative,234804376.0
+101,Wyoming,negative,15234707.0

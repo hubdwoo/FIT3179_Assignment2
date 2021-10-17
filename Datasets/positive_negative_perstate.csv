@@ -1,103 +1,1041 @@
-,City,test_type,count
-0,Alabama,positive,24228288.0
-1,Alaska,positive,1621040.0
-2,Arizona,positive,35762140.0
-3,Arkansas,positive,13671266.0
-4,California,positive,125742663.0
-5,Colorado,positive,16817857.0
-6,Connecticut,positive,13306886.0
-7,Delaware,positive,4042598.0
-8,District of Columbia,positive,3366043.0
-9,Florida,positive,106045873.0
-10,Georgia,positive,48130906.0
-11,Hawaii,positive,1603917.0
-12,Idaho,positive,7258855.0
-13,Illinois,positive,59325694.0
-14,Indiana,positive,23750124.0
-15,Iowa,positive,15415225.0
-16,Kansas,positive,10872354.0
-17,Kentucky,positive,12363073.0
-18,Louisiana,positive,27872485.0
-19,Maine,positive,1236126.0
-20,Maryland,positive,22732166.0
-21,Massachusetts,positive,29239618.0
-22,Michigan,positive,30090594.0
-23,Minnesota,positive,20037079.0
-24,Mississippi,positive,15869624.0
-25,Missouri,positive,20893534.0
-26,Montana,positive,3045523.0
-27,Nebraska,positive,8978990.0
-28,Nevada,positive,13292261.0
-29,New Hampshire,positive,2599038.0
-30,New Jersey,positive,46021578.0
-31,New Mexico,positive,6763714.0
-32,New York,positive,103777740.0
-33,North Carolina,positive,34424996.0
-34,North Dakota,positive,4364140.0
-35,Ohio,positive,29252115.0
-36,Oklahoma,positive,13983896.0
-37,Oregon,positive,6182368.0
-38,Pennsylvania,positive,32390495.0
-39,Rhode Island,positive,5656958.0
-40,South Carolina,positive,23589303.0
-41,South Dakota,positive,4847915.0
-42,Tennessee,positive,31812873.0
-43,Texas,positive,113497755.0
-44,Utah,positive,13803992.0
-45,Vermont,positive,401623.0
-46,Virginia,positive,24998458.0
-47,Washington,positive,15680936.0
-48,West Virginia,positive,3054347.0
-49,Wisconsin,positive,25479912.0
-50,Wyoming,positive,1527360.0
-51,Alabama,negative,159567202.0
-52,Alaska,negative,77033703.0
-53,Arizona,negative,201917924.0
-54,Arkansas,negative,147104865.0
-55,California,negative,2183819832.0
-56,Colorado,negative,142930238.0
-57,Connecticut,negative,259613004.0
-58,Delaware,negative,43323206.0
-59,District of Columbia,negative,58917999.0
-60,Florida,negative,751142471.0
-61,Georgia,negative,406954073.0
-62,Hawaii,negative,38771843.0
-63,Idaho,negative,43031096.0
-64,Illinois,negative,862140450.0
-65,Indiana,negative,197985426.0
-66,Iowa,negative,107053275.0
-67,Kansas,negative,73094086.0
-68,Kentucky,negative,204719106.0
-69,Louisiana,negative,338397057.0
-70,Maine,negative,67859719.0
-71,Maryland,negative,233073975.0
-72,Massachusetts,negative,336811777.0
-73,Michigan,negative,569291217.0
-74,Minnesota,negative,225225064.0
-75,Mississippi,negative,106130305.0
-76,Missouri,negative,175184257.0
-77,Montana,negative,53569922.0
-78,Nebraska,negative,67315095.0
-79,Nevada,negative,100621631.0
-80,New Hampshire,negative,43686055.0
-81,New Jersey,negative,559074051.0
-82,New Mexico,negative,149940762.0
-83,New York,negative,1725435452.0
-84,North Carolina,negative,461090490.0
-85,North Dakota,negative,36647384.0
-86,Ohio,negative,484990822.0
-87,Oklahoma,negative,179297720.0
-88,Oregon,negative,112262019.0
-89,Pennsylvania,negative,307108742.0
-90,Rhode Island,negative,54330594.0
-91,South Carolina,negative,192892602.0
-92,South Dakota,negative,28210252.0
-93,Tennessee,negative,421487097.0
-94,Texas,negative,910191843.0
-95,Utah,negative,129216420.0
-96,Vermont,negative,25346392.0
-97,Virginia,negative,302996183.0
-98,Washington,negative,299026434.0
-99,West Virginia,negative,93067175.0
-100,Wisconsin,negative,234804376.0
-101,Wyoming,negative,15234707.0
+,City,month,test_type,count
+0,Alabama,3,positive,220066.0
+1,Alabama,4,positive,116864.0
+2,Alabama,5,positive,356718.0
+3,Alabama,6,positive,779845.0
+4,Alabama,7,positive,1868658.0
+5,Alabama,8,positive,3314875.0
+6,Alabama,9,positive,4198655.0
+7,Alabama,10,positive,5293940.0
+8,Alabama,11,positive,6527268.0
+9,Alabama,12,positive,1551399.0
+10,Alaska,3,positive,661.0
+11,Alaska,4,positive,8063.0
+12,Alaska,5,positive,12160.0
+13,Alaska,6,positive,20041.0
+14,Alaska,7,positive,53702.0
+15,Alaska,8,positive,128846.0
+16,Alaska,9,positive,192640.0
+17,Alaska,10,positive,332270.0
+18,Alaska,11,positive,674674.0
+19,Alaska,12,positive,197983.0
+20,Arizona,3,positive,237943.0
+21,Arizona,4,positive,122295.0
+22,Arizona,5,positive,404821.0
+23,Arizona,6,positive,1232979.0
+24,Arizona,7,positive,4008248.0
+25,Arizona,8,positive,5922373.0
+26,Arizona,9,positive,6303038.0
+27,Arizona,10,positive,7113669.0
+28,Arizona,11,positive,8354417.0
+29,Arizona,12,positive,2062357.0
+30,Arkansas,3,positive,423350.0
+31,Arkansas,4,positive,49660.0
+32,Arkansas,5,positive,145016.0
+33,Arkansas,6,positive,385174.0
+34,Arkansas,7,positive,946094.0
+35,Arkansas,8,positive,1613808.0
+36,Arkansas,9,positive,2149957.0
+37,Arkansas,10,positive,2995642.0
+38,Arkansas,11,positive,3983547.0
+39,Arkansas,12,positive,979018.0
+40,California,3,positive,478847.0
+41,California,4,positive,766011.0
+42,California,5,positive,2348693.0
+43,California,6,positive,4646867.0
+44,California,7,positive,10901396.0
+45,California,8,positive,18684239.0
+46,California,9,positive,22750449.0
+47,California,10,positive,26667963.0
+48,California,11,positive,30951372.0
+49,California,12,positive,7546826.0
+50,Colorado,3,positive,1357391.0
+51,Colorado,4,positive,251995.0
+52,Colorado,5,positive,651171.0
+53,Colorado,6,positive,880530.0
+54,Colorado,7,positive,1199607.0
+55,Colorado,8,positive,1626720.0
+56,Colorado,9,positive,1883372.0
+57,Colorado,10,positive,2600927.0
+58,Colorado,11,positive,4897979.0
+59,Colorado,12,positive,1468165.0
+60,Connecticut,3,positive,281068.0
+61,Connecticut,4,positive,439750.0
+62,Connecticut,5,positive,1108483.0
+63,Connecticut,6,positive,1344347.0
+64,Connecticut,7,positive,1480379.0
+65,Connecticut,8,positive,1582393.0
+66,Connecticut,9,positive,1646653.0
+67,Connecticut,10,positive,1947615.0
+68,Connecticut,11,positive,2737116.0
+69,Connecticut,12,positive,739082.0
+70,Delaware,3,positive,169655.0
+71,Delaware,4,positive,62103.0
+72,Delaware,5,positive,224650.0
+73,Delaware,6,positive,310625.0
+74,Delaware,7,positive,406779.0
+75,Delaware,8,positive,500799.0
+76,Delaware,9,positive,568858.0
+77,Delaware,10,positive,702220.0
+78,Delaware,11,positive,873264.0
+79,Delaware,12,positive,223645.0
+80,District of Columbia,3,positive,402988.0
+81,District of Columbia,4,positive,67122.0
+82,District of Columbia,5,positive,210484.0
+83,District of Columbia,6,positive,290302.0
+84,District of Columbia,7,positive,343637.0
+85,District of Columbia,8,positive,405983.0
+86,District of Columbia,9,positive,439967.0
+87,District of Columbia,10,positive,501718.0
+88,District of Columbia,11,positive,571247.0
+89,District of Columbia,12,positive,132595.0
+90,Florida,1,positive,256844.0
+91,Florida,2,positive,0.0
+92,Florida,3,positive,22777.0
+93,Florida,4,positive,599067.0
+94,Florida,5,positive,1327226.0
+95,Florida,6,positive,2472748.0
+96,Florida,7,positive,9275189.0
+97,Florida,8,positive,17105204.0
+98,Florida,9,positive,19794536.0
+99,Florida,10,positive,22893156.0
+100,Florida,11,positive,26254684.0
+101,Florida,12,positive,6044442.0
+102,Georgia,3,positive,35825.0
+103,Georgia,4,positive,440078.0
+104,Georgia,5,positive,1132470.0
+105,Georgia,6,positive,1787986.0
+106,Georgia,7,positive,4009572.0
+107,Georgia,8,positive,7176522.0
+108,Georgia,9,positive,8877722.0
+109,Georgia,10,positive,10446540.0
+110,Georgia,11,positive,11634479.0
+111,Georgia,12,positive,2589712.0
+112,Hawaii,3,positive,1044.0
+113,Hawaii,4,positive,14303.0
+114,Hawaii,5,positive,19669.0
+115,Hawaii,6,positive,22165.0
+116,Hawaii,7,positive,39689.0
+117,Hawaii,8,positive,146147.0
+118,Hawaii,9,positive,320281.0
+119,Hawaii,10,positive,429572.0
+120,Hawaii,11,positive,500389.0
+121,Hawaii,12,positive,110658.0
+122,Idaho,3,positive,129133.0
+123,Idaho,4,positive,42656.0
+124,Idaho,5,positive,73291.0
+125,Idaho,6,positive,110284.0
+126,Idaho,7,positive,379886.0
+127,Idaho,8,positive,820773.0
+128,Idaho,9,positive,1075622.0
+129,Idaho,10,positive,1579184.0
+130,Idaho,11,positive,2422984.0
+131,Idaho,12,positive,625042.0
+132,Illinois,3,positive,421958.0
+133,Illinois,4,positive,755393.0
+134,Illinois,5,positive,2750036.0
+135,Illinois,6,positive,3989836.0
+136,Illinois,7,positive,4935707.0
+137,Illinois,8,positive,6398336.0
+138,Illinois,9,positive,7978847.0
+139,Illinois,10,positive,10570306.0
+140,Illinois,11,positive,17001897.0
+141,Illinois,12,positive,4523378.0
+142,Indiana,2,positive,0.0
+143,Indiana,3,positive,7894.0
+144,Indiana,4,positive,273922.0
+145,Indiana,5,positive,821526.0
+146,Indiana,6,positive,1199829.0
+147,Indiana,7,positive,1682108.0
+148,Indiana,8,positive,2460312.0
+149,Indiana,9,positive,3198303.0
+150,Indiana,10,positive,4453071.0
+151,Indiana,11,positive,7517061.0
+152,Indiana,12,positive,2136098.0
+153,Iowa,3,positive,37970.0
+154,Iowa,4,positive,76971.0
+155,Iowa,5,positive,427600.0
+156,Iowa,6,positive,718690.0
+157,Iowa,7,positive,1130635.0
+158,Iowa,8,positive,1616965.0
+159,Iowa,9,positive,2214554.0
+160,Iowa,10,positive,3081101.0
+161,Iowa,11,positive,4869062.0
+162,Iowa,12,positive,1241677.0
+163,Kansas,3,positive,352753.0
+164,Kansas,4,positive,50691.0
+165,Kansas,5,positive,231250.0
+166,Kansas,6,positive,345629.0
+167,Kansas,7,positive,641215.0
+168,Kansas,8,positive,1055247.0
+169,Kansas,9,positive,1506367.0
+170,Kansas,10,positive,2170332.0
+171,Kansas,11,positive,3543266.0
+172,Kansas,12,positive,975604.0
+173,Kentucky,3,positive,170634.0
+174,Kentucky,4,positive,66458.0
+175,Kentucky,5,positive,220728.0
+176,Kentucky,6,positive,378207.0
+177,Kentucky,7,positive,664049.0
+178,Kentucky,8,positive,1199978.0
+179,Kentucky,9,positive,1740471.0
+180,Kentucky,10,positive,2638039.0
+181,Kentucky,11,positive,4152676.0
+182,Kentucky,12,positive,1131833.0
+183,Louisiana,3,positive,109205.0
+184,Louisiana,4,positive,602396.0
+185,Louisiana,5,positive,1046428.0
+186,Louisiana,6,positive,1414455.0
+187,Louisiana,7,positive,2634961.0
+188,Louisiana,8,positive,4192769.0
+189,Louisiana,9,positive,4759370.0
+190,Louisiana,10,positive,5485744.0
+191,Louisiana,11,positive,6177236.0
+192,Louisiana,12,positive,1449921.0
+193,Maine,3,positive,166748.0
+194,Maine,4,positive,21566.0
+195,Maine,5,positive,50928.0
+196,Maine,6,positive,83129.0
+197,Maine,7,positive,111375.0
+198,Maine,8,positive,129306.0
+199,Maine,9,positive,147537.0
+200,Maine,10,positive,182098.0
+201,Maine,11,positive,268973.0
+202,Maine,12,positive,74466.0
+203,Maryland,3,positive,115130.0
+204,Maryland,4,positive,306220.0
+205,Maryland,5,positive,1152092.0
+206,Maryland,6,positive,1833703.0
+207,Maryland,7,positive,2353771.0
+208,Maryland,8,positive,3067094.0
+209,Maryland,9,positive,3501904.0
+210,Maryland,10,positive,4152025.0
+211,Maryland,11,positive,5020393.0
+212,Maryland,12,positive,1229834.0
+213,Massachusetts,1,positive,0.0
+214,Massachusetts,2,positive,0.0
+215,Massachusetts,3,positive,25633.0
+216,Massachusetts,4,positive,932382.0
+217,Massachusetts,5,positive,2547825.0
+218,Massachusetts,6,positive,3152948.0
+219,Massachusetts,7,positive,3489987.0
+220,Massachusetts,8,positive,3811743.0
+221,Massachusetts,9,positive,3782110.0
+222,Massachusetts,10,positive,4422653.0
+223,Massachusetts,11,positive,5645446.0
+224,Massachusetts,12,positive,1428891.0
+225,Michigan,3,positive,187325.0
+226,Michigan,4,positive,1007829.0
+227,Michigan,5,positive,1750231.0
+228,Michigan,6,positive,1994527.0
+229,Michigan,7,positive,2458725.0
+230,Michigan,8,positive,3138256.0
+231,Michigan,9,positive,3737267.0
+232,Michigan,10,positive,4940269.0
+233,Michigan,11,positive,8431197.0
+234,Michigan,12,positive,2444968.0
+235,Minnesota,3,positive,178028.0
+236,Minnesota,4,positive,85668.0
+237,Minnesota,5,positive,534892.0
+238,Minnesota,6,positive,932226.0
+239,Minnesota,7,positive,1369305.0
+240,Minnesota,8,positive,1997466.0
+241,Minnesota,9,positive,2583948.0
+242,Minnesota,10,positive,3689821.0
+243,Minnesota,11,positive,6679293.0
+244,Minnesota,12,positive,1986432.0
+245,Mississippi,3,positive,327141.0
+246,Mississippi,4,positive,103843.0
+247,Mississippi,5,positive,335386.0
+248,Mississippi,6,positive,600747.0
+249,Mississippi,7,positive,1246678.0
+250,Mississippi,8,positive,2211250.0
+251,Mississippi,9,positive,2718436.0
+252,Mississippi,10,positive,3351488.0
+253,Mississippi,11,positive,4026096.0
+254,Mississippi,12,positive,948559.0
+255,Missouri,3,positive,87858.0
+256,Missouri,4,positive,138221.0
+257,Missouri,5,positive,324627.0
+258,Missouri,6,positive,493848.0
+259,Missouri,7,positive,976581.0
+260,Missouri,8,positive,2050384.0
+261,Missouri,9,positive,3147667.0
+262,Missouri,10,positive,4686341.0
+263,Missouri,11,positive,7138973.0
+264,Missouri,12,positive,1849034.0
+265,Montana,3,positive,14232.0
+266,Montana,4,positive,11178.0
+267,Montana,5,positive,14518.0
+268,Montana,6,positive,19339.0
+269,Montana,7,positive,67549.0
+270,Montana,8,positive,173329.0
+271,Montana,9,positive,287258.0
+272,Montana,10,positive,663039.0
+273,Montana,11,positive,1406711.0
+274,Montana,12,positive,388370.0
+275,Nebraska,2,positive,0.0
+276,Nebraska,3,positive,945.0
+277,Nebraska,4,positive,36382.0
+278,Nebraska,5,positive,285764.0
+279,Nebraska,6,positive,497792.0
+280,Nebraska,7,positive,677299.0
+281,Nebraska,8,positive,923009.0
+282,Nebraska,9,positive,1164549.0
+283,Nebraska,10,positive,1713168.0
+284,Nebraska,11,positive,2891450.0
+285,Nebraska,12,positive,788632.0
+286,Nevada,3,positive,219972.0
+287,Nevada,4,positive,93333.0
+288,Nevada,5,positive,207301.0
+289,Nevada,6,positive,356014.0
+290,Nevada,7,positive,982132.0
+291,Nevada,8,positive,1854015.0
+292,Nevada,9,positive,2223794.0
+293,Nevada,10,positive,2751087.0
+294,Nevada,11,positive,3652987.0
+295,Nevada,12,positive,951626.0
+296,New Hampshire,3,positive,789185.0
+297,New Hampshire,4,positive,33527.0
+298,New Hampshire,5,positive,104325.0
+299,New Hampshire,6,positive,157564.0
+300,New Hampshire,7,positive,189549.0
+301,New Hampshire,8,positive,214974.0
+302,New Hampshire,9,positive,232015.0
+303,New Hampshire,10,positive,293924.0
+304,New Hampshire,11,positive,448130.0
+305,New Hampshire,12,positive,135845.0
+306,New Jersey,2,positive,0.0
+307,New Jersey,3,positive,73803.0
+308,New Jersey,4,positive,2086679.0
+309,New Jersey,5,positive,4428692.0
+310,New Jersey,6,positive,4998963.0
+311,New Jersey,7,positive,5458305.0
+312,New Jersey,8,positive,5791940.0
+313,New Jersey,9,positive,5928251.0
+314,New Jersey,10,positive,6767221.0
+315,New Jersey,11,positive,8392657.0
+316,New Jersey,12,positive,2095067.0
+317,New Mexico,3,positive,476767.0
+318,New Mexico,4,positive,46425.0
+319,New Mexico,5,positive,173697.0
+320,New Mexico,6,positive,293855.0
+321,New Mexico,7,positive,495682.0
+322,New Mexico,8,positive,717107.0
+323,New Mexico,9,positive,811595.0
+324,New Mexico,10,positive,1114501.0
+325,New Mexico,11,positive,2021955.0
+326,New Mexico,12,positive,612130.0
+327,New York,3,positive,807955.0
+328,New York,4,positive,5999866.0
+329,New York,5,positive,10626893.0
+330,New York,6,positive,11490808.0
+331,New York,7,positive,12522993.0
+332,New York,8,positive,13163134.0
+333,New York,9,positive,13370264.0
+334,New York,10,positive,14891864.0
+335,New York,11,positive,16880898.0
+336,New York,12,positive,4023065.0
+337,North Carolina,3,positive,371071.0
+338,North Carolina,4,positive,159553.0
+339,North Carolina,5,positive,553768.0
+340,North Carolina,6,positive,1339674.0
+341,North Carolina,7,positive,2844078.0
+342,North Carolina,8,positive,4454430.0
+343,North Carolina,9,positive,5621193.0
+344,North Carolina,10,positive,7430806.0
+345,North Carolina,11,positive,9398605.0
+346,North Carolina,12,positive,2251818.0
+347,North Dakota,3,positive,602.0
+348,North Dakota,4,positive,13859.0
+349,North Dakota,5,positive,55818.0
+350,North Dakota,6,positive,92094.0
+351,North Dakota,7,positive,146492.0
+352,North Dakota,8,positive,267476.0
+353,North Dakota,9,positive,486574.0
+354,North Dakota,10,positive,947123.0
+355,North Dakota,11,positive,1869502.0
+356,North Dakota,12,positive,484600.0
+357,Ohio,3,positive,33010.0
+358,Ohio,4,positive,271328.0
+359,Ohio,5,positive,829978.0
+360,Ohio,6,positive,1263717.0
+361,Ohio,7,positive,2164746.0
+362,Ohio,8,positive,3311529.0
+363,Ohio,9,positive,4159568.0
+364,Ohio,10,positive,5529460.0
+365,Ohio,11,positive,9028451.0
+366,Ohio,12,positive,2660328.0
+367,Oklahoma,3,positive,70378.0
+368,Oklahoma,4,positive,64836.0
+369,Oklahoma,5,positive,157613.0
+370,Oklahoma,6,positive,270267.0
+371,Oklahoma,7,positive,715656.0
+372,Oklahoma,8,positive,1470457.0
+373,Oklahoma,9,positive,2149323.0
+374,Oklahoma,10,positive,3228654.0
+375,Oklahoma,11,positive,4630976.0
+376,Oklahoma,12,positive,1225736.0
+377,Oregon,3,positive,447636.0
+378,Oregon,4,positive,48504.0
+379,Oregon,5,positive,106672.0
+380,Oregon,6,positive,179416.0
+381,Oregon,7,positive,410322.0
+382,Oregon,8,positive,705079.0
+383,Oregon,9,positive,892863.0
+384,Oregon,10,positive,1196417.0
+385,Oregon,11,positive,1721271.0
+386,Oregon,12,positive,474188.0
+387,Pennsylvania,3,positive,231980.0
+388,Pennsylvania,4,positive,760690.0
+389,Pennsylvania,5,positive,1856612.0
+390,Pennsylvania,6,positive,2373219.0
+391,Pennsylvania,7,positive,3040433.0
+392,Pennsylvania,8,positive,3816543.0
+393,Pennsylvania,9,positive,4374685.0
+394,Pennsylvania,10,positive,5548871.0
+395,Pennsylvania,11,positive,8086506.0
+396,Pennsylvania,12,positive,2300956.0
+397,Rhode Island,3,positive,257735.0
+398,Rhode Island,4,positive,122368.0
+399,Rhode Island,5,positive,384109.0
+400,Rhode Island,6,positive,482363.0
+401,Rhode Island,7,positive,548488.0
+402,Rhode Island,8,positive,633464.0
+403,Rhode Island,9,positive,697873.0
+404,Rhode Island,10,positive,867006.0
+405,Rhode Island,11,positive,1304922.0
+406,Rhode Island,12,positive,358630.0
+407,South Carolina,3,positive,1254183.0
+408,South Carolina,4,positive,106727.0
+409,South Carolina,5,positive,262763.0
+410,South Carolina,6,positive,611936.0
+411,South Carolina,7,positive,1925613.0
+412,South Carolina,8,positive,3248590.0
+413,South Carolina,9,positive,3988252.0
+414,South Carolina,10,positive,4998793.0
+415,South Carolina,11,positive,5856901.0
+416,South Carolina,12,positive,1335545.0
+417,South Dakota,3,positive,55591.0
+418,South Dakota,4,positive,33888.0
+419,South Dakota,5,positive,116448.0
+420,South Dakota,6,positive,176189.0
+421,South Dakota,7,positive,238095.0
+422,South Dakota,8,positive,322248.0
+423,South Dakota,9,positive,520231.0
+424,South Dakota,10,positive,984074.0
+425,South Dakota,11,positive,1904522.0
+426,South Dakota,12,positive,496629.0
+427,Tennessee,3,positive,95085.0
+428,Tennessee,4,positive,182861.0
+429,Tennessee,5,positive,526741.0
+430,Tennessee,6,positive,939803.0
+431,Tennessee,7,positive,2194826.0
+432,Tennessee,8,positive,4056144.0
+433,Tennessee,9,positive,5249660.0
+434,Tennessee,10,positive,6960189.0
+435,Tennessee,11,positive,9290218.0
+436,Tennessee,12,positive,2317346.0
+437,Texas,3,positive,274342.0
+438,Texas,4,positive,450451.0
+439,Texas,5,positive,1394463.0
+440,Texas,6,positive,2902788.0
+441,Texas,7,positive,8860439.0
+442,Texas,8,positive,16248590.0
+443,Texas,9,positive,20210796.0
+444,Texas,10,positive,25244147.0
+445,Texas,11,positive,30674029.0
+446,Texas,12,positive,7237710.0
+447,Utah,3,positive,221108.0
+448,Utah,4,positive,78393.0
+449,Utah,5,positive,216156.0
+450,Utah,6,positive,448781.0
+451,Utah,7,positive,966930.0
+452,Utah,8,positive,1430608.0
+453,Utah,9,positive,1808300.0
+454,Utah,10,positive,2829102.0
+455,Utah,11,positive,4580293.0
+456,Utah,12,positive,1224321.0
+457,Vermont,3,positive,1560.0
+458,Vermont,4,positive,20692.0
+459,Vermont,5,positive,28900.0
+460,Vermont,6,positive,33306.0
+461,Vermont,7,positive,40825.0
+462,Vermont,8,positive,46648.0
+463,Vermont,9,positive,50646.0
+464,Vermont,10,positive,59892.0
+465,Vermont,11,positive,91680.0
+466,Vermont,12,positive,27474.0
+467,Virginia,2,positive,0.0
+468,Virginia,3,positive,5566.0
+469,Virginia,4,positive,209291.0
+470,Virginia,5,positive,896650.0
+471,Virginia,6,positive,1626135.0
+472,Virginia,7,positive,2303721.0
+473,Virginia,8,positive,3259644.0
+474,Virginia,9,positive,4042133.0
+475,Virginia,10,positive,5052758.0
+476,Virginia,11,positive,6139126.0
+477,Virginia,12,positive,1463434.0
+478,Washington,1,positive,0.0
+479,Washington,2,positive,0.0
+480,Washington,3,positive,64546.0
+481,Washington,4,positive,341856.0
+482,Washington,5,positive,592019.0
+483,Washington,6,positive,852712.0
+484,Washington,7,positive,1475233.0
+485,Washington,8,positive,2100626.0
+486,Washington,9,positive,2406410.0
+487,Washington,10,positive,2971226.0
+488,Washington,11,positive,3864304.0
+489,Washington,12,positive,1012004.0
+490,West Virginia,3,positive,201202.0
+491,West Virginia,4,positive,20017.0
+492,West Virginia,5,positive,46104.0
+493,West Virginia,6,positive,70609.0
+494,West Virginia,7,positive,141266.0
+495,West Virginia,8,positive,258914.0
+496,West Virginia,9,positive,388898.0
+497,West Virginia,10,positive,600425.0
+498,West Virginia,11,positive,1023578.0
+499,West Virginia,12,positive,303334.0
+500,Wisconsin,3,positive,8777.0
+501,Wisconsin,4,positive,134267.0
+502,Wisconsin,5,positive,423924.0
+503,Wisconsin,6,positive,767357.0
+504,Wisconsin,7,positive,1329224.0
+505,Wisconsin,8,positive,2139731.0
+506,Wisconsin,9,positive,2980500.0
+507,Wisconsin,10,positive,5392881.0
+508,Wisconsin,11,positive,9757567.0
+509,Wisconsin,12,positive,2545684.0
+510,Wyoming,3,positive,603.0
+511,Wyoming,4,positive,10676.0
+512,Wyoming,5,positive,22461.0
+513,Wyoming,6,positive,33130.0
+514,Wyoming,7,positive,62742.0
+515,Wyoming,8,positive,101243.0
+516,Wyoming,9,positive,137950.0
+517,Wyoming,10,positive,271888.0
+518,Wyoming,11,positive,678294.0
+519,Wyoming,12,positive,208373.0
+520,Alabama,3,negative,36150.0
+521,Alabama,4,negative,1030397.0
+522,Alabama,5,negative,4328674.0
+523,Alabama,6,negative,8452439.0
+524,Alabama,7,negative,15167614.0
+525,Alabama,8,negative,22782688.0
+526,Alabama,9,negative,27075160.0
+527,Alabama,10,negative,33826150.0
+528,Alabama,11,negative,38449982.0
+529,Alabama,12,negative,8417948.0
+530,Alaska,3,negative,25051.0
+531,Alaska,4,negative,294877.0
+532,Alaska,5,negative,1056616.0
+533,Alaska,6,negative,2367660.0
+534,Alaska,7,negative,5063238.0
+535,Alaska,8,negative,9170572.0
+536,Alaska,9,negative,12157935.0
+537,Alaska,10,negative,15968264.0
+538,Alaska,11,negative,24852718.0
+539,Alaska,12,negative,6076772.0
+540,Arizona,3,negative,64910.0
+541,Arizona,4,negative,1273359.0
+542,Arizona,5,negative,4062774.0
+543,Arizona,6,negative,9639534.0
+544,Arizona,7,negative,18919434.0
+545,Arizona,8,negative,27617174.0
+546,Arizona,9,negative,33734652.0
+547,Arizona,10,negative,43030072.0
+548,Arizona,11,negative,51694974.0
+549,Arizona,12,negative,11881041.0
+550,Arkansas,3,negative,26305.0
+551,Arkansas,4,negative,668405.0
+552,Arkansas,5,negative,2487946.0
+553,Arkansas,6,negative,5976213.0
+554,Arkansas,7,negative,11656682.0
+555,Arkansas,8,negative,17392351.0
+556,Arkansas,9,negative,23395836.0
+557,Arkansas,10,negative,34162601.0
+558,Arkansas,11,negative,41840541.0
+559,Arkansas,12,negative,9497985.0
+560,California,3,negative,234096.0
+561,California,4,negative,7677813.0
+562,California,5,negative,35849088.0
+563,California,6,negative,84388722.0
+564,California,7,negative,173358760.0
+565,California,8,negative,282077851.0
+566,California,9,negative,368017495.0
+567,California,10,negative,489801406.0
+568,California,11,negative,602382579.0
+569,California,12,negative,140032022.0
+570,Colorado,3,negative,111610.0
+571,Colorado,4,negative,1020284.0
+572,Colorado,5,negative,3248141.0
+573,Colorado,6,negative,6820414.0
+574,Colorado,7,negative,12032199.0
+575,Colorado,8,negative,17819687.0
+576,Colorado,9,negative,22316517.0
+577,Colorado,10,negative,30522016.0
+578,Colorado,11,negative,39631425.0
+579,Colorado,12,negative,9407945.0
+580,Connecticut,3,negative,77369.0
+581,Connecticut,4,negative,1098414.0
+582,Connecticut,5,negative,4072840.0
+583,Connecticut,6,negative,9542905.0
+584,Connecticut,7,negative,17932389.0
+585,Connecticut,8,negative,28427669.0
+586,Connecticut,9,negative,39883073.0
+587,Connecticut,10,negative,58730781.0
+588,Connecticut,11,negative,80323009.0
+589,Connecticut,12,negative,19524555.0
+590,Delaware,3,negative,6620.0
+591,Delaware,4,negative,326141.0
+592,Delaware,5,negative,1016432.0
+593,Delaware,6,negative,2224983.0
+594,Delaware,7,negative,4139079.0
+595,Delaware,8,negative,6008310.0
+596,Delaware,9,negative,7361513.0
+597,Delaware,10,negative,9225331.0
+598,Delaware,11,negative,10641714.0
+599,Delaware,12,negative,2373083.0
+600,District of Columbia,3,negative,20584.0
+601,District of Columbia,4,negative,293640.0
+602,District of Columbia,5,negative,878864.0
+603,District of Columbia,6,negative,1789711.0
+604,District of Columbia,7,negative,4004584.0
+605,District of Columbia,8,negative,7076650.0
+606,District of Columbia,9,negative,9756345.0
+607,District of Columbia,10,negative,13589554.0
+608,District of Columbia,11,negative,17353099.0
+609,District of Columbia,12,negative,4154968.0
+610,Florida,1,negative,0.0
+611,Florida,2,negative,0.0
+612,Florida,3,negative,292184.0
+613,Florida,4,negative,6037170.0
+614,Florida,5,negative,19806395.0
+615,Florida,6,negative,40925751.0
+616,Florida,7,negative,77199955.0
+617,Florida,8,negative,112470532.0
+618,Florida,9,negative,129505152.0
+619,Florida,10,negative,153257179.0
+620,Florida,11,negative,173248469.0
+621,Florida,12,negative,38399684.0
+622,Georgia,3,negative,80515.0
+623,Georgia,4,negative,1711240.0
+624,Georgia,5,negative,9124800.0
+625,Georgia,6,negative,17354742.0
+626,Georgia,7,negative,32822199.0
+627,Georgia,8,negative,54582697.0
+628,Georgia,9,negative,70747638.0
+629,Georgia,10,negative,90406621.0
+630,Georgia,11,negative,106259154.0
+631,Georgia,12,negative,23864467.0
+632,Hawaii,3,negative,47814.0
+633,Hawaii,4,negative,598664.0
+634,Hawaii,5,negative,1291418.0
+635,Hawaii,6,negative,1846780.0
+636,Hawaii,7,negative,3045243.0
+637,Hawaii,8,negative,4774790.0
+638,Hawaii,9,negative,7421222.0
+639,Hawaii,10,negative,9120404.0
+640,Hawaii,11,negative,8854590.0
+641,Hawaii,12,negative,1770918.0
+642,Idaho,3,negative,31821.0
+643,Idaho,4,negative,425569.0
+644,Idaho,5,negative,1050370.0
+645,Idaho,6,negative,1878296.0
+646,Idaho,7,negative,3825666.0
+647,Idaho,8,negative,6003395.0
+648,Idaho,9,negative,7395557.0
+649,Idaho,10,negative,9289193.0
+650,Idaho,11,negative,10772023.0
+651,Idaho,12,negative,2359206.0
+652,Illinois,3,negative,189326.0
+653,Illinois,4,negative,3120699.0
+654,Illinois,5,negative,14874373.0
+655,Illinois,6,negative,33123453.0
+656,Illinois,7,negative,61406411.0
+657,Illinois,8,negative,98377125.0
+658,Illinois,9,negative,137928452.0
+659,Illinois,10,negative,195566987.0
+660,Illinois,11,negative,256976354.0
+661,Illinois,12,negative,60577270.0
+662,Indiana,2,negative,0.0
+663,Indiana,3,negative,57233.0
+664,Indiana,4,negative,1267570.0
+665,Indiana,5,negative,4597739.0
+666,Indiana,6,negative,9831654.0
+667,Indiana,7,negative,17110716.0
+668,Indiana,8,negative,25773823.0
+669,Indiana,9,negative,34045590.0
+670,Indiana,10,negative,43103579.0
+671,Indiana,11,negative,50799797.0
+672,Indiana,12,negative,11397725.0
+673,Iowa,3,negative,39395.0
+674,Iowa,4,negative,590114.0
+675,Iowa,5,negative,2606832.0
+676,Iowa,6,negative,6181861.0
+677,Iowa,7,negative,11068350.0
+678,Iowa,8,negative,15390662.0
+679,Iowa,9,negative,18634184.0
+680,Iowa,10,negative,22615989.0
+681,Iowa,11,negative,24661387.0
+682,Iowa,12,negative,5264501.0
+683,Kansas,3,negative,31466.0
+684,Kansas,4,negative,439690.0
+685,Kansas,5,negative,1714359.0
+686,Kansas,6,negative,3770805.0
+687,Kansas,7,negative,6764953.0
+688,Kansas,8,negative,9751157.0
+689,Kansas,9,negative,12393827.0
+690,Kansas,10,negative,15912079.0
+691,Kansas,11,negative,18281397.0
+692,Kansas,12,negative,4034353.0
+693,Kentucky,3,negative,39812.0
+694,Kentucky,4,negative,819330.0
+695,Kentucky,5,negative,3707665.0
+696,Kentucky,6,negative,8474508.0
+697,Kentucky,7,negative,14025085.0
+698,Kentucky,8,negative,20727673.0
+699,Kentucky,9,negative,29317291.0
+700,Kentucky,10,negative,48575411.0
+701,Kentucky,11,negative,63902614.0
+702,Kentucky,12,negative,15129717.0
+703,Louisiana,3,negative,172972.0
+704,Louisiana,4,negative,2712953.0
+705,Louisiana,5,negative,7121423.0
+706,Louisiana,6,negative,14760239.0
+707,Louisiana,7,negative,29158727.0
+708,Louisiana,8,negative,46734032.0
+709,Louisiana,9,negative,58289471.0
+710,Louisiana,10,negative,73754945.0
+711,Louisiana,11,negative,85904923.0
+712,Louisiana,12,negative,19787372.0
+713,Maine,3,negative,44976.0
+714,Maine,4,negative,351384.0
+715,Maine,5,negative,880176.0
+716,Maine,6,negative,2090101.0
+717,Maine,7,negative,3970814.0
+718,Maine,8,negative,6424361.0
+719,Maine,9,negative,10282365.0
+720,Maine,10,negative,16228732.0
+721,Maine,11,negative,22245166.0
+722,Maine,12,negative,5341644.0
+723,Maryland,3,negative,53950.0
+724,Maryland,4,negative,1500033.0
+725,Maryland,5,negative,4955905.0
+726,Maryland,6,negative,10938162.0
+727,Maryland,7,negative,19550805.0
+728,Maryland,8,negative,32072110.0
+729,Maryland,9,negative,40907223.0
+730,Maryland,10,negative,51089586.0
+731,Maryland,11,negative,58873193.0
+732,Maryland,12,negative,13133008.0
+733,Massachusetts,1,negative,0.0
+734,Massachusetts,2,negative,0.0
+735,Massachusetts,3,negative,251901.0
+736,Massachusetts,4,negative,3475686.0
+737,Massachusetts,5,negative,11225946.0
+738,Massachusetts,6,negative,18544791.0
+739,Massachusetts,7,negative,27772851.0
+740,Massachusetts,8,negative,41193097.0
+741,Massachusetts,9,negative,56316043.0
+742,Massachusetts,10,negative,72850109.0
+743,Massachusetts,11,negative,86001135.0
+744,Massachusetts,12,negative,19180218.0
+745,Michigan,3,negative,147888.0
+746,Michigan,4,negative,2547755.0
+747,Michigan,5,negative,11092594.0
+748,Michigan,6,negative,23112791.0
+749,Michigan,7,negative,41368270.0
+750,Michigan,8,negative,68470710.0
+751,Michigan,9,negative,92525602.0
+752,Michigan,10,negative,126581324.0
+753,Michigan,11,negative,164786199.0
+754,Michigan,12,negative,38658084.0
+755,Minnesota,3,negative,149462.0
+756,Minnesota,4,negative,1293714.0
+757,Minnesota,5,negative,4737287.0
+758,Minnesota,6,negative,12303744.0
+759,Minnesota,7,negative,23606845.0
+760,Minnesota,8,negative,28731020.0
+761,Minnesota,9,negative,35342505.0
+762,Minnesota,10,negative,47180320.0
+763,Minnesota,11,negative,58317632.0
+764,Minnesota,12,negative,13562535.0
+765,Mississippi,3,negative,25208.0
+766,Mississippi,4,negative,977730.0
+767,Mississippi,5,negative,3163203.0
+768,Mississippi,6,negative,6294894.0
+769,Mississippi,7,negative,10103335.0
+770,Mississippi,8,negative,13790927.0
+771,Mississippi,9,negative,16898757.0
+772,Mississippi,10,negative,22237884.0
+773,Mississippi,11,negative,26743997.0
+774,Mississippi,12,negative,5894370.0
+775,Missouri,3,negative,53678.0
+776,Missouri,4,negative,1317616.0
+777,Missouri,5,negative,3863710.0
+778,Missouri,6,negative,8021156.0
+779,Missouri,7,negative,15410450.0
+780,Missouri,8,negative,23951538.0
+781,Missouri,9,negative,31508957.0
+782,Missouri,10,negative,39002496.0
+783,Missouri,11,negative,42880284.0
+784,Missouri,12,negative,9174372.0
+785,Montana,3,negative,30579.0
+786,Montana,4,negative,278435.0
+787,Montana,5,negative,808776.0
+788,Montana,6,negative,1867610.0
+789,Montana,7,negative,3911573.0
+790,Montana,8,negative,6237364.0
+791,Montana,9,negative,8500986.0
+792,Montana,10,negative,12427065.0
+793,Montana,11,negative,15861965.0
+794,Montana,12,negative,3645569.0
+795,Nebraska,2,negative,0.0
+796,Nebraska,3,negative,17659.0
+797,Nebraska,4,negative,353232.0
+798,Nebraska,5,negative,1622391.0
+799,Nebraska,6,negative,3697558.0
+800,Nebraska,7,negative,6232664.0
+801,Nebraska,8,negative,8950157.0
+802,Nebraska,9,negative,11062705.0
+803,Nebraska,10,negative,14608440.0
+804,Nebraska,11,negative,17034934.0
+805,Nebraska,12,negative,3735355.0
+806,Nevada,3,negative,69632.0
+807,Nevada,4,negative,734617.0
+808,Nevada,5,negative,2357671.0
+809,Nevada,6,negative,6077530.0
+810,Nevada,7,negative,10553881.0
+811,Nevada,8,negative,14949737.0
+812,Nevada,9,negative,17228557.0
+813,Nevada,10,negative,20604052.0
+814,Nevada,11,negative,22994842.0
+815,Nevada,12,negative,5051112.0
+816,New Hampshire,3,negative,36107.0
+817,New Hampshire,4,negative,348891.0
+818,New Hampshire,5,negative,1284155.0
+819,New Hampshire,6,negative,2757622.0
+820,New Hampshire,7,negative,4117838.0
+821,New Hampshire,8,negative,5509677.0
+822,New Hampshire,9,negative,6863716.0
+823,New Hampshire,10,negative,9238975.0
+824,New Hampshire,11,negative,11073700.0
+825,New Hampshire,12,negative,2455374.0
+826,New Jersey,2,negative,0.0
+827,New Jersey,3,negative,145370.0
+828,New Jersey,4,negative,2306826.0
+829,New Jersey,5,negative,10217130.0
+830,New Jersey,6,negative,28681254.0
+831,New Jersey,7,negative,48706482.0
+832,New Jersey,8,negative,71026507.0
+833,New Jersey,9,negative,91178647.0
+834,New Jersey,10,negative,120513087.0
+835,New Jersey,11,negative,151272907.0
+836,New Jersey,12,negative,35025841.0
+837,New Mexico,3,negative,110645.0
+838,New Mexico,4,negative,1036922.0
+839,New Mexico,5,negative,3900837.0
+840,New Mexico,6,negative,7822810.0
+841,New Mexico,7,negative,13416601.0
+842,New Mexico,8,negative,20037586.0
+843,New Mexico,9,negative,24376199.0
+844,New Mexico,10,negative,31151407.0
+845,New Mexico,11,negative,39030707.0
+846,New Mexico,12,negative,9057048.0
+847,New York,3,negative,1011424.0
+848,New York,4,negative,10064183.0
+849,New York,5,negative,33073131.0
+850,New York,6,negative,79223084.0
+851,New York,7,negative,140135533.0
+852,New York,8,negative,205897243.0
+853,New York,9,negative,272581541.0
+854,New York,10,negative,376733222.0
+855,New York,11,negative,490344925.0
+856,New York,12,negative,116371166.0
+857,North Carolina,3,negative,148422.0
+858,North Carolina,4,negative,1976917.0
+859,North Carolina,5,negative,7289883.0
+860,North Carolina,6,negative,18240294.0
+861,North Carolina,7,negative,38238390.0
+862,North Carolina,8,negative,57258878.0
+863,North Carolina,9,negative,74492555.0
+864,North Carolina,10,negative,102366655.0
+865,North Carolina,11,negative,130562875.0
+866,North Carolina,12,negative,30515621.0
+867,North Dakota,3,negative,27548.0
+868,North Dakota,4,negative,377916.0
+869,North Dakota,5,negative,1581664.0
+870,North Dakota,6,negative,2573958.0
+871,North Dakota,7,negative,3866562.0
+872,North Dakota,8,negative,5282714.0
+873,North Dakota,9,negative,6164744.0
+874,North Dakota,10,negative,7322119.0
+875,North Dakota,11,negative,7813128.0
+876,North Dakota,12,negative,1637031.0
+877,Ohio,3,negative,141488.0
+878,Ohio,4,negative,2045067.0
+879,Ohio,5,negative,7089686.0
+880,Ohio,6,negative,16050525.0
+881,Ohio,7,negative,31937310.0
+882,Ohio,8,negative,53504239.0
+883,Ohio,9,negative,76543619.0
+884,Ohio,10,negative,113034201.0
+885,Ohio,11,negative,149445696.0
+886,Ohio,12,negative,35198991.0
+887,Oklahoma,3,negative,12401.0
+888,Oklahoma,4,negative,838780.0
+889,Oklahoma,5,negative,3691157.0
+890,Oklahoma,6,negative,7575990.0
+891,Oklahoma,7,negative,13692298.0
+892,Oklahoma,8,negative,21910752.0
+893,Oklahoma,9,negative,28689571.0
+894,Oklahoma,10,negative,40519159.0
+895,Oklahoma,11,negative,50545538.0
+896,Oklahoma,12,negative,11822074.0
+897,Oregon,3,negative,86740.0
+898,Oregon,4,negative,978615.0
+899,Oregon,5,negative,2740767.0
+900,Oregon,6,negative,5241268.0
+901,Oregon,7,negative,9531640.0
+902,Oregon,8,negative,14282060.0
+903,Oregon,9,negative,17741622.0
+904,Oregon,10,negative,22757267.0
+905,Oregon,11,negative,27051670.0
+906,Oregon,12,negative,11850370.0
+907,Pennsylvania,3,negative,207027.0
+908,Pennsylvania,4,negative,3358557.0
+909,Pennsylvania,5,negative,8420233.0
+910,Pennsylvania,6,negative,15750048.0
+911,Pennsylvania,7,negative,27518621.0
+912,Pennsylvania,8,negative,41086435.0
+913,Pennsylvania,9,negative,51169701.0
+914,Pennsylvania,10,negative,65112691.0
+915,Pennsylvania,11,negative,77189806.0
+916,Pennsylvania,12,negative,17295623.0
+917,Rhode Island,3,negative,31510.0
+918,Rhode Island,4,negative,737243.0
+919,Rhode Island,5,negative,2387321.0
+920,Rhode Island,6,negative,3582509.0
+921,Rhode Island,7,negative,4956782.0
+922,Rhode Island,8,negative,6717213.0
+923,Rhode Island,9,negative,8600798.0
+924,Rhode Island,10,negative,11201702.0
+925,Rhode Island,11,negative,13232288.0
+926,Rhode Island,12,negative,2883228.0
+927,South Carolina,3,negative,30358.0
+928,South Carolina,4,negative,907789.0
+929,South Carolina,5,negative,3442910.0
+930,South Carolina,6,negative,7668142.0
+931,South Carolina,7,negative,14840211.0
+932,South Carolina,8,negative,22860202.0
+933,South Carolina,9,negative,29106160.0
+934,South Carolina,10,negative,43383215.0
+935,South Carolina,11,negative,57197734.0
+936,South Carolina,12,negative,13455881.0
+937,South Dakota,3,negative,24426.0
+938,South Dakota,4,negative,277854.0
+939,South Dakota,5,negative,764846.0
+940,South Dakota,6,negative,1794827.0
+941,South Dakota,7,negative,2712437.0
+942,South Dakota,8,negative,3660777.0
+943,South Dakota,9,negative,4537390.0
+944,South Dakota,10,negative,6015279.0
+945,South Dakota,11,negative,6911926.0
+946,South Dakota,12,negative,1510490.0
+947,Tennessee,3,negative,145171.0
+948,Tennessee,4,negative,2542823.0
+949,Tennessee,5,negative,9241487.0
+950,Tennessee,6,negative,17523878.0
+951,Tennessee,7,negative,33023828.0
+952,Tennessee,8,negative,53757897.0
+953,Tennessee,9,negative,70935382.0
+954,Tennessee,10,negative,95111256.0
+955,Tennessee,11,negative,113718617.0
+956,Tennessee,12,negative,25486758.0
+957,Texas,3,negative,219051.0
+958,Texas,4,negative,4524463.0
+959,Texas,5,negative,18234047.0
+960,Texas,6,negative,37850548.0
+961,Texas,7,negative,76217138.0
+962,Texas,8,negative,118722123.0
+963,Texas,9,negative,145544434.0
+964,Texas,10,negative,198046393.0
+965,Texas,11,negative,251617608.0
+966,Texas,12,negative,59216038.0
+967,Utah,3,negative,130820.0
+968,Utah,4,negative,1791428.0
+969,Utah,5,negative,5004386.0
+970,Utah,6,negative,7966935.0
+971,Utah,7,negative,12838648.0
+972,Utah,8,negative,17114973.0
+973,Utah,9,negative,20131788.0
+974,Utah,10,negative,26055743.0
+975,Utah,11,negative,31213080.0
+976,Utah,12,negative,6968619.0
+977,Vermont,3,negative,29307.0
+978,Vermont,4,negative,268960.0
+979,Vermont,5,negative,648659.0
+980,Vermont,6,negative,1462396.0
+981,Vermont,7,negative,2386400.0
+982,Vermont,8,negative,3369138.0
+983,Vermont,9,negative,4457579.0
+984,Vermont,10,negative,5372102.0
+985,Vermont,11,negative,6005456.0
+986,Vermont,12,negative,1346395.0
+987,Virginia,2,negative,0.0
+988,Virginia,3,negative,79746.0
+989,Virginia,4,negative,1234856.0
+990,Virginia,5,negative,4993757.0
+991,Virginia,6,negative,12760216.0
+992,Virginia,7,negative,24614580.0
+993,Virginia,8,negative,38718142.0
+994,Virginia,9,negative,50421211.0
+995,Virginia,10,negative,67902403.0
+996,Virginia,11,negative,83207323.0
+997,Virginia,12,negative,19063949.0
+998,Washington,1,negative,0.0
+999,Washington,2,negative,24.0
+1000,Washington,3,negative,930273.0
+1001,Washington,4,negative,4270484.0
+1002,Washington,5,negative,8758198.0
+1003,Washington,6,negative,14759630.0
+1004,Washington,7,negative,26072904.0
+1005,Washington,8,negative,37908654.0
+1006,Washington,9,negative,47558104.0
+1007,Washington,10,negative,63867357.0
+1008,Washington,11,negative,77984470.0
+1009,Washington,12,negative,16916336.0
+1010,West Virginia,3,negative,18083.0
+1011,West Virginia,4,negative,608669.0
+1012,West Virginia,5,negative,2201012.0
+1013,West Virginia,6,negative,3972452.0
+1014,West Virginia,7,negative,6786053.0
+1015,West Virginia,8,negative,10840777.0
+1016,West Virginia,9,negative,14477169.0
+1017,West Virginia,10,negative,20073600.0
+1018,West Virginia,11,negative,27292252.0
+1019,West Virginia,12,negative,6797108.0
+1020,Wisconsin,3,negative,135717.0
+1021,Wisconsin,4,negative,1244921.0
+1022,Wisconsin,5,negative,4439509.0
+1023,Wisconsin,6,negative,12176946.0
+1024,Wisconsin,7,negative,21813331.0
+1025,Wisconsin,8,negative,32585463.0
+1026,Wisconsin,9,negative,38921030.0
+1027,Wisconsin,10,negative,50312031.0
+1028,Wisconsin,11,negative,60120441.0
+1029,Wisconsin,12,negative,13054987.0
+1030,Wyoming,3,negative,13138.0
+1031,Wyoming,4,negative,172432.0
+1032,Wyoming,5,negative,486435.0
+1033,Wyoming,6,negative,883306.0
+1034,Wyoming,7,negative,1261597.0
+1035,Wyoming,8,negative,1840717.0
+1036,Wyoming,9,negative,2528321.0
+1037,Wyoming,10,negative,3318793.0
+1038,Wyoming,11,negative,3870031.0
+1039,Wyoming,12,negative,859937.0

@@ -20,19 +20,33 @@
                     "domain": {
                         "param": "timefilter"
                     }
-                }
+                },
+                "title": "Date"
             },
             "y": {
                 "field": "positive",
-                "type": "quantitative"
+                "type": "quantitative",
+                "title": "Positive count"
             },
             "color": {
                 "field": "City",
                 "type": "nominal",
                 "scale": {
-                    "domain": ["California", "Texas", "Florida", "New York"]
+                    "domain": ["California", "Texas", "Florida", "New York"],
+                    "range": ["#a6cee3", "#1f78b4", "#b2df8a", "#33a02c"]
                 }
-            }
+            },
+            "tooltip": [{
+                "timeUnit": "yearmonthdate",
+                "field": "date",
+                "type": "ordinal",
+                "title": "Date"
+            },{
+                "field": "positive",
+                "type": "quantitative",
+                "title": "Positive test",
+                "format": ","
+            }]
         }
     },{
         "data": {
@@ -52,11 +66,13 @@
             "x": {
                 "timeUnit": "yearmonthdate",
                 "field": "date",
-                "type": "ordinal"
+                "type": "ordinal",
+                "title": "Date"
             },
             "y": {
                 "field": "positive",
-                "type": "quantitative"
+                "type": "quantitative",
+                "title": "Positive test"
             }
         }
     }],

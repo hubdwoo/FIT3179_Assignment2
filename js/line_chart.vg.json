@@ -1,7 +1,68 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "data": {
-        "url": ""
+    "autosize": {
+        "type": "fit",
+        "resize": true
     },
-    "mark": "line"
+    "vconcat": [{
+        "data": {
+            "url": "https://raw.githubusercontent.com/hubdwoo/FIT3179_Assignment2/main/Datasets/positive_negative_with_date.csv"
+        },
+        "mark": "line",
+        "height": 500,
+        "width": 860,
+        "encoding": {
+            "x": {
+                "timeUnit": "yearmonthdate",
+                "field": "date",
+                "type": "ordinal",
+                "scale": {
+                    "domain": {
+                        "param": "timefilter"
+                    }
+                }
+            },
+            "y": {
+                "field": "positive",
+                "type": "quantitative"
+            },
+            "color": {
+                "field": "City",
+                "type": "nominal",
+                "scale": {
+                    "domain": ["California", "Texas", "Florida", "New York"]
+                }
+            }
+        }
+    },{
+        "data": {
+            "url": "https://raw.githubusercontent.com/hubdwoo/FIT3179_Assignment2/main/Datasets/state_sum_date.csv"
+        },
+        "mark": "area",
+        "height": 60,
+        "width": 860,
+        "params": [{
+            "name": "timefilter",
+            "select": {
+                "type": "interval",
+                "encodings": ["x"]
+            }
+        }],
+        "encoding": {
+            "x": {
+                "timeUnit": "yearmonthdate",
+                "field": "date",
+                "type": "ordinal"
+            },
+            "y": {
+                "field": "positive",
+                "type": "quantitative"
+            }
+        }
+    }],
+    "config": {
+        "view": {
+            "stroke": "transparent"
+        }
+    }
 }

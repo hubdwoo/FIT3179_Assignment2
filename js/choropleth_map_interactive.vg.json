@@ -94,12 +94,12 @@
             {
                 "field": "positive",
                 "type": "quantitative",
-                "title": "Positive tests",
+                "title": "Positive Test",
                 "scale":
                 {
                     "type": "sequential",
                     "domain": [50000, 100000, 5000000, 1000000, 5000000, 10000000, 50000000],
-                    "scheme": "reds"
+                    "range": ["#fcbba1", "#fc9272", "#fb6a4a", "#ef3b2c", "#cb181d", "#99000d", "#67000d"]
                 },
                 "legend": {
                     "format": ".2s"

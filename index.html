@@ -51,9 +51,28 @@
             <h3>
                 Population and Positive tests by State
             </h3>
+            <hr>
+            <p> This chart below shows the proportion of Positive tests against Negative tests. It is very clear that most of the positive tests that are occuring in every state,
+                has a smaller proportion compared to Negative tests. We can also see that for states that are high in positive tests, they are also high in negative tests which result
+                in total counts in tests.
+            </p>
             <div class = "scatterplot">
                 <div class = "third">
                     <div id = "vis_3", class = "vis-container"></div>
+                </div>
+            </div>
+            <br>
+            <h3>
+                4 Major cities for Positive Test
+            </h3>
+            <hr>
+            <p> Below it shows the 4 major cities where positive tests are highest, this chart how positive tests has grown overtime. From the visualisation below we can also see that
+                firstly New York rapidly increasing first then the other 3 major cities increases and caught up with New York. In the end, California is the highest. In conclusion, the movement
+                of COVID-19 moves rapidly in large population cities. 
+            </p>
+            <div class = "linechart">
+                <div class = "fourth">
+                    <div id = "vis_4", class = "vis-container"></div>
                 </div>
             </div>
         </div>
@@ -66,8 +85,12 @@
             vegaEmbed('#vis_2', map).then(function(result){
             }).catch(console.error);
 
-            var scatter = "js/bubble_plot.vg.json";
+            var scatter = "js/stacked_bar_chart.vg.json";
             vegaEmbed("#vis_3", scatter).then(function(result){
+            }).catch(console.error)
+
+            var line = "js/line_chart.vg.json";
+            vegaEmbed('#vis_4', line).then(function(result){
             }).catch(console.error)
         </script>
     </body>

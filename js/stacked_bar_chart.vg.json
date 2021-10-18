@@ -1,3 +1,65 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json"
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "height": "container",
+    "width": "container",
+    "data":
+    {
+        "url": "https://raw.githubusercontent.com/hubdwoo/FIT3179_Assignment2/main/Datasets/positive_negative_perstate.csv"
+    },
+    "mark": "bar",
+    "params": [{
+        "name": "month_selection",
+        "value": 11,
+        "bind":
+        {
+            "input": "range",
+            "min": 3,
+            "max": 12,
+            "step": 1,
+            "name": "Month: "
+        }
+    }],
+    "transform": [{
+        "filter": "datum.month == month_selection"
+    }],
+    "encoding": {
+        "x": {
+            "field": "City",
+            "type": "nominal",
+            "title": "State"
+        },
+        "y": {
+            "field": "count",
+            "type": "quantitative",
+            "axis": {
+                "grid": false
+            },
+            "title": "Tests",
+            "scale": {
+                "domain": [1000000, 700000000]
+            }
+        },
+        "color": {
+            "field": "test_type",
+            "type": "nominal",
+            "scale": {
+                "domain": ["positive", "negative"],
+                "range": ["#e41a1c", "#1b9e77"]
+            },
+            "title": "Test Type"
+        },
+        "tooltip": [{
+            "field": "City",
+            "type": "nominal"
+        },{
+            "field": "count",
+            "type": "quantitative",
+            "format": ","
+        }]
+    },
+    "config": {
+        "view": {
+            "stroke": "transparent"
+        }
+    }
 }
